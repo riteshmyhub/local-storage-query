@@ -1,6 +1,6 @@
 # Local Storage Query
 
-Local Storage Query is a utility class designed to simplify interactions with the browser's localStorage API. This package provides methods to easily manage data stored in the browser's localStorage in asynchronous way, allowing for seamless integration into web applications.
+Local Storage Query is a utility class designed to simplify interactions with the browser's localStorage API. This package provides methods to easily manage data stored in the browser's localStorage in asynchronous way, allowing for seamless integration with client side based JavaScript library and framework.
 
 ## Installation
 
