@@ -43,3 +43,13 @@ const res = await db.find({ name: "user" });
 
 const res = await db.search({ keyName: searchTerm });
 ```
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to contribute to this project.
+
+## License
+
+This package is open-source and available under the MIT License.
+
+
