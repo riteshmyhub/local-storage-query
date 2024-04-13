@@ -8,7 +8,9 @@ You can install the package via npm or yarn:
 
 ```bash
 npm install local-storage-query
-   #or
+```
+
+```bash
 yarn add local-storage-query
 ```
 
@@ -24,16 +26,20 @@ const db = new DB({
 });
 
 /*-------------------------Methods-------------------*/
-await db.create(data);
+/* 
+  #then : response res?.response.data.data or message 
+  #catch :  error?.message
+*/
+const res = await db.create(data);
 
-await db.deleteById(id);
+const res = await db.deleteById(id);
 
-await db.updateById(id,item);
+const res = await db.updateById(id, item);
 
-await db.findById(id);
+const res = await db.findById(id);
 
-await db.find(null);
-await db.find({name:"user"});
- 
-await db.search({keyName:searchTerm})
+const res = await db.find(null);
+const res = await db.find({ name: "user" });
+
+const res = await db.search({ keyName: searchTerm });
 ```
