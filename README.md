@@ -27,8 +27,8 @@ const db = new DB({
 
 /*-------------------------Methods-------------------*/
 /* 
-  #then : response res?.response.data.data or message 
-  #catch :  error?.message
+  success response : response res?.response.data.data or message 
+  error response :  error?.message
 */
 const res = await db.create(data);
 
@@ -51,5 +51,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests to c
 ## License
 
 This package is open-source and available under the MIT License.
-
-

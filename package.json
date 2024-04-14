@@ -1,6 +1,6 @@
 {
    "name": "local-storage-query",
-   "version": "1.0.3",
+   "version": "1.0.5",
    "description": "lacal storage query",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
@@ -13,7 +13,13 @@
       "url": "git+https://github.com/riteshmyhub/local-storage-query.git"
    },
    "keywords": [
-      "react"
+      "javasript",
+      "typescript",
+      "localstorage",
+      "db",
+      "library",
+      "framework",
+      "npm"
    ],
    "author": "ritesh goswami'",
    "license": "ISC",
